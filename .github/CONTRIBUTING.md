@@ -15,7 +15,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 ## Language specific libraries
 
 If you have an issue for a specific client library, see the following:
-* [.NET](https://github.com/azure/azure-service-bus-dotnet)
+* [.NET Standard](https://github.com/azure/azure-service-bus-dotnet)
 * [Java](https://github.com/azure/azure-service-bus-java)
 
 ## Filing Issues
@@ -25,6 +25,10 @@ You can find all of the issues that have been filed in the [Issues](https://gith
 If you encounter any service side bugs, please file an issue [here](https://github.com/Azure/azure-service-bus/issues/new) and make sure to fill out the provided template with the requested information.
 
 To suggest a new feature or changes that could be made, file an issue the same way you would for a bug, but remove the provided template and replace it with information about your suggestion.
+
+### Reply times
+
+The Service Bus team tries to at least reply to issues as fast as possible but please expect 5-7 business days.
 
 ### Pull Requests
 
