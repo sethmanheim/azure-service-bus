@@ -4,17 +4,21 @@
 
 # Microsoft Azure Service Bus
 
-To learn more about Azure Service Bus, please visit our [marketing page](https://azure.microsoft.com/services/service-bus/).
+To learn more about Azure Service Bus, please visit our [start page](https://azure.microsoft.com/services/service-bus/).
 
 This repository is intended to be used for the following:
-* Service side issues and feature requests
+* Service side issues and feature requests. Please file issues here in this repository.
 * [Samples](./samples/readme.md)
-* Documentation issues
+* Reports of documentation issues
 
+<<<<<<< HEAD
 If you are looking for a specific client library, see the following:
 <<<<<<< HEAD
 * [.NET](https://github.com/azure/azure-service-bus-dotnet)
 =======
+=======
+If you are looking for the code of a specific client library, see the following:
+>>>>>>> e4c1ca392af7beeabb48eda21109b50a0d7e9734
 * [.NET Standard](https://github.com/azure/azure-service-bus-dotnet)
 >>>>>>> 457e05155e432c3c9c381d49829b5aedb30e1824
 * [Java](https://github.com/azure/azure-service-bus-java)
