@@ -1,7 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved.
-// Licensed under the MIT license. See LICENSE file in the project root for full license information.
-
-package com.microsoft.azure.servicebus.samples.queuesgettingstarted;
+package samples.quickstart;
 
 import com.google.gson.reflect.TypeToken;
 import com.microsoft.azure.servicebus.*;
@@ -13,11 +10,10 @@ import static java.nio.charset.StandardCharsets.*;
 import java.time.Duration;
 import java.util.*;
 import java.util.concurrent.*;
-import java.util.function.Function;
 
 import org.apache.commons.cli.*;
 
-public class QueuesGettingStarted {
+public class SendAndReceiveMessages {
 
     static final Gson GSON = new Gson();
     String ConnectionString = null;
@@ -117,7 +113,7 @@ public class QueuesGettingStarted {
     }
 
     public static void main(String[] args) {
-            QueuesGettingStarted app = new QueuesGettingStarted();
+    		SendAndReceiveMessages app = new SendAndReceiveMessages();
             try {
                 app.runApp(args);
                 app.run();
